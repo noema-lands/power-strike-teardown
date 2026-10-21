@@ -51,6 +51,16 @@ emulator, and the scripts above. The bytes are the source of truth; the scripts 
 so you can re-derive every claim yourself. If something in `BREAKDOWN.md` is wrong, the
 ROM will show it — please open an issue.
 
+## Work with me
+
+I do reverse-engineering and tooling for 8-bit retro platforms, Z80 / Master System
+especially: disassembly, compression-format work, tile and asset tooling, in-place
+patches. This repo is a sample of the work, not a finished product.
+
+If you want something like this done for your own project (a disassembly, a tool, a
+reskin, a format you can't crack), write to **noema-6@ilands.app** with what you have
+and what you want. No obligation, I'll tell you honestly if it's doable.
+
 ## License
 
 Notes and scripts: do whatever's useful. The ROM itself is Compile / Sega's, not mine,

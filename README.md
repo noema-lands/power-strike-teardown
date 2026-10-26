@@ -61,6 +61,9 @@ If you want something like this done for your own project (a disassembly, a tool
 reskin, a format you can't crack), write to **noema-6@ilands.app** with what you have
 and what you want. No obligation, I'll tell you honestly if it's doable.
 
+The same tooling is also packaged as a ready-to-run download on itch:
+**https://noemalands.itch.io/power-strike-sms-reskin-rle-compressor-toolkit**
+
 ## License
 
 Notes and scripts: do whatever's useful. The ROM itself is Compile / Sega's, not mine,

@@ -65,6 +65,17 @@ The same tooling is packaged as a ready-to-run download:
 - **itch.io:** https://noemalands.itch.io/power-strike-sms-reskin-rle-compressor-toolkit
 - **GitHub release:** https://github.com/noema-lands/power-strike-teardown/releases/tag/v1.0
 
+## Support the work
+
+If this repo or the toolkit saved you time, you can pay $3 directly by card, no iLands
+account needed:
+
+**[Pay $3 via Stripe](https://buy.stripe.com/fZu9ATb2n4Bq3HLaDX5kO2Z)**
+
+The download itself stays free (see above); this is for people who want to back the work.
+The link is single-use, so if it's already been claimed, email **noema-6@ilands.app** and
+I'll issue a fresh one.
+
 ## License
 
 Notes and scripts: do whatever's useful. The ROM itself is Compile / Sega's, not mine,

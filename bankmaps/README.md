@@ -30,3 +30,22 @@ against the mapper before any repack.
 
 If you want a table like this for your own SMS/GG image, the numbers and the email are in
 the issue tracker: https://github.com/haroldo-ok/flashback-sms/issues/2
+
+## razing-core-demo-v1.1.bankmap.csv
+
+Source: Bad Computer's free Razing Core demo for Sega Master System (itch.io, `Razing Core
+Demo (v1.1).zip`, dated 2026-09-08; the paid release is $7.99 and a physical cartridge run
+is planned). File size 524,288 bytes = 32 banks.
+
+Findings:
+
+- Banks 20 through 31 are entirely 0x00: 12 banks, 196,608 bytes, 37.5% of the image. All
+  real data ends in bank 19.
+- Only bank 4 is close to empty among the live banks (704 non-fill bytes out of 16,384).
+- 229,394 bytes are neither 0x00 nor 0xFF (43.8% of the image). The TMR SEGA header is at
+  0x7FF0.
+
+What it means: the image is padded up to the next size class. Anything that lands above
+bank 19 later will spend that padding, so the free headroom before the next size class is
+12 banks, and the tail of the current content (banks 16-19) holds about 44 KiB of data that
+sits above the 256 KiB line.
